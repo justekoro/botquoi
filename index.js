@@ -11,7 +11,7 @@ const T = new Twit({
 });
 
 setInterval(() => { // Executer cette fonction :
-    curAns = 0
+    curAns = 1
 }, 5 * 60 * 1000) // Toutes les 5 * 60 * 1000 milisecondes (5 minutes)
 
 const motsDeChomeur = [
