@@ -1,7 +1,7 @@
 require('dotenv').config();
 const Twit = require('twit');
 let maxAnsPer5min = 10; // Pour avoir maximum 10 réponses toutes les 5 minutes
-let curAns = 0; // Nombre de réponses pour le moment
+let curAns = 1; // Nombre de réponses pour le moment +1
 
 const T = new Twit({
     consumer_key:         process.env.CONSUMER_KEY,
